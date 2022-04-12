@@ -1,0 +1,20 @@
+@import "../../styles/main.scss";
+
+.student_list_container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 50vw;
+  height: 70vh;
+}
+
+.student_list {
+  width: 50vw;
+  overflow: hidden;
+  overflow-y: auto;
+  background-color: $main-layout-background;
+}
+
+.student_list::-webkit-scrollbar {
+  display: none;
+}

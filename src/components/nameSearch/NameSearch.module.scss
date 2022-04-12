@@ -1,0 +1,19 @@
+@import "../../styles/main.scss";
+
+.search_inputs {
+  display: flex;
+}
+
+.search input {
+  background-color: $main-layout-background;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 30px;
+  width: 100%;
+  border-bottom: 1px solid $main-app-grey;
+}
+
+input:focus {
+  outline: none;
+}
